@@ -10,10 +10,12 @@
 #import <AddressBook/AddressBook.h>
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface SecondViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
+@interface SecondViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate, UIAlertViewDelegate>
 {
     IBOutlet UITextField *_calling_card_tel_number;
     IBOutlet UITextField *_pin_number;
+    
+    UITextField *_alert_view_text_field;
 }
 
 - (IBAction)onChooseContactToCallClicked:(id)sender;
