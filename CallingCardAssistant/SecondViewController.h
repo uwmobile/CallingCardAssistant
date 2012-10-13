@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
+{
+    IBOutlet UITextField *_calling_card_tel_number;
+    IBOutlet UITextField *_pin_number;
+}
+
+- (IBAction)onChooseContactToCallClicked:(id)sender;
 
 @end

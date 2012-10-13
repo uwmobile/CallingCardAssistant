@@ -24,6 +24,8 @@
 		FED55FFB1629DF7F00690CD5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED55FFA1629DF7F00690CD5 /* second@2x.png */; };
 		FED55FFE1629DF7F00690CD5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED55FFC1629DF7F00690CD5 /* FirstViewController.xib */; };
 		FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED55FFF1629DF7F00690CD5 /* SecondViewController.xib */; };
+		FED5600C1629DFCF00690CD5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED5600B1629DFCF00690CD5 /* AddressBook.framework */; };
+		FED5600E1629DFD200690CD5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED5600D1629DFD200690CD5 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		FED55FFA1629DF7F00690CD5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		FED55FFD1629DF7F00690CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
 		FED560001629DF7F00690CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		FED5600B1629DFCF00690CD5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FED5600D1629DFD200690CD5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED5600E1629DFD200690CD5 /* AddressBookUI.framework in Frameworks */,
+				FED5600C1629DFCF00690CD5 /* AddressBook.framework in Frameworks */,
 				FED55FD71629DF7F00690CD5 /* UIKit.framework in Frameworks */,
 				FED55FD91629DF7F00690CD5 /* Foundation.framework in Frameworks */,
 				FED55FDB1629DF7F00690CD5 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +92,8 @@
 		FED55FD51629DF7F00690CD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FED5600D1629DFD200690CD5 /* AddressBookUI.framework */,
+				FED5600B1629DFCF00690CD5 /* AddressBook.framework */,
 				FED55FD61629DF7F00690CD5 /* UIKit.framework */,
 				FED55FD81629DF7F00690CD5 /* Foundation.framework */,
 				FED55FDA1629DF7F00690CD5 /* CoreGraphics.framework */,
@@ -100,14 +108,14 @@
 				FED55FE61629DF7F00690CD5 /* AppDelegate.m */,
 				FED55FEE1629DF7F00690CD5 /* FirstViewController.h */,
 				FED55FEF1629DF7F00690CD5 /* FirstViewController.m */,
+				FED55FFC1629DF7F00690CD5 /* FirstViewController.xib */,
 				FED55FF11629DF7F00690CD5 /* first.png */,
 				FED55FF31629DF7F00690CD5 /* first@2x.png */,
 				FED55FF51629DF7F00690CD5 /* SecondViewController.h */,
 				FED55FF61629DF7F00690CD5 /* SecondViewController.m */,
+				FED55FFF1629DF7F00690CD5 /* SecondViewController.xib */,
 				FED55FF81629DF7F00690CD5 /* second.png */,
 				FED55FFA1629DF7F00690CD5 /* second@2x.png */,
-				FED55FFC1629DF7F00690CD5 /* FirstViewController.xib */,
-				FED55FFF1629DF7F00690CD5 /* SecondViewController.xib */,
 				FED55FDD1629DF7F00690CD5 /* Supporting Files */,
 			);
 			path = CallingCardAssistant;
