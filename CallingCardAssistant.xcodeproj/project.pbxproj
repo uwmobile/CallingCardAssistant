@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCA9F36D162A074F00D1265F /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E43AC162A068900EC0900 /* DialViewController.m */; };
+		FCA9F36F162A075300D1265F /* DialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0E43AD162A068900EC0900 /* DialViewController.xib */; };
 		FED55FD71629DF7F00690CD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FD61629DF7F00690CD5 /* UIKit.framework */; };
 		FED55FD91629DF7F00690CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FD81629DF7F00690CD5 /* Foundation.framework */; };
 		FED55FDB1629DF7F00690CD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FDA1629DF7F00690CD5 /* CoreGraphics.framework */; };
@@ -29,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC0E43AB162A068900EC0900 /* DialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		FC0E43AC162A068900EC0900 /* DialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
+		FC0E43AD162A068900EC0900 /* DialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialViewController.xib; sourceTree = "<group>"; };
 		FED55FD21629DF7F00690CD5 /* CallingCardAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingCardAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED55FD61629DF7F00690CD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FED55FD81629DF7F00690CD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +121,9 @@
 				FED55FFF1629DF7F00690CD5 /* SecondViewController.xib */,
 				FED55FF81629DF7F00690CD5 /* second.png */,
 				FED55FFA1629DF7F00690CD5 /* second@2x.png */,
+				FC0E43AB162A068900EC0900 /* DialViewController.h */,
+				FC0E43AC162A068900EC0900 /* DialViewController.m */,
+				FC0E43AD162A068900EC0900 /* DialViewController.xib */,
 				FED55FDD1629DF7F00690CD5 /* Supporting Files */,
 			);
 			path = CallingCardAssistant;
@@ -196,6 +204,7 @@
 				FED55FFB1629DF7F00690CD5 /* second@2x.png in Resources */,
 				FED55FFE1629DF7F00690CD5 /* FirstViewController.xib in Resources */,
 				FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */,
+				FCA9F36F162A075300D1265F /* DialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +219,7 @@
 				FED55FE71629DF7F00690CD5 /* AppDelegate.m in Sources */,
 				FED55FF01629DF7F00690CD5 /* FirstViewController.m in Sources */,
 				FED55FF71629DF7F00690CD5 /* SecondViewController.m in Sources */,
+				FCA9F36D162A074F00D1265F /* DialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +343,7 @@
 				FED560061629DF7F00690CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
