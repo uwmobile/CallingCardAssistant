@@ -12,6 +12,8 @@
 
 #import "SecondViewController.h"
 
+#import "DialViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -20,8 +22,10 @@
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     UIViewController *viewController2 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    DialViewController *dialViewController = [[DialViewController alloc] initWithNibName:nil bundle:nil];
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[viewController1, dialViewController,viewController2];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
