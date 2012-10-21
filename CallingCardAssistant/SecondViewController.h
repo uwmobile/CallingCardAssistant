@@ -16,6 +16,9 @@
     IBOutlet UITextField *_pin_number;
     
     UITextField *_alert_view_text_field;
+    
+    NSArray *_test_array_input;
+    NSArray *_test_array_output;
 }
 
 - (IBAction)onChooseContactToCallClicked:(id)sender;
