@@ -83,6 +83,8 @@
     return NO;
 }
 
+//966 3 866 5400 , mobile: 966 54 540 5000 (don't have local area number)
+
 - (BOOL)isAmericanLocalAreaNumber:(NSString*)first_three_number
 {
     return YES; //TODO
@@ -108,11 +110,12 @@
 {
     NSString *string = [original copy]; //original.copy()
     
-    //Strip all characteres
+    //Strip all special characteres
     string = [string stringByReplacingOccurrencesOfString:@"+" withString:@""];
     string = [string stringByReplacingOccurrencesOfString:@"(" withString:@""];
     string = [string stringByReplacingOccurrencesOfString:@")" withString:@""];
     string = [string stringByReplacingOccurrencesOfString:@"-" withString:@""];
+    string = [string stringByReplacingOccurrencesOfString:@" " withString:@""];
     
     //Detect Length
     int length = [string length];
@@ -152,7 +155,7 @@
                 string = [string substringFromIndex:1];
                 string = [self append_01186_to_front:string];
             } else {
-                //TODO ask user for local area number
+                //ask for china or american phone
             }
         }
             break;
@@ -176,9 +179,23 @@
             break;
         case 13:
         {
-            string = [self append_011_to_front:string];
+            NSString *first_three_digit = [string substringToIndex:2];
+            if ([first_three_digit isEqualToString:@"860"]) {
+                string = [string substringFromIndex:3];
+                string = [self append_01186_to_front:string];
+            } else {
+                string = [self append_011_to_front:string];
+            }
         }
             break;
+        case 14:
+        {
+            NSString *first_three_digit = [string substringToIndex:2];
+            if ([first_three_digit isEqualToString:@"860"]) {
+                string = [string substringFromIndex:3];
+                string = [self append_01186_to_front:string];
+            }
+        }
         default:
         {
             //TODO ask user to upload telephone number for us to debug
