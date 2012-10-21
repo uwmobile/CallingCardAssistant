@@ -28,6 +28,8 @@
 		FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED55FFF1629DF7F00690CD5 /* SecondViewController.xib */; };
 		FED5600C1629DFCF00690CD5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED5600B1629DFCF00690CD5 /* AddressBook.framework */; };
 		FED5600E1629DFD200690CD5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED5600D1629DFD200690CD5 /* AddressBookUI.framework */; };
+		FEF222B0163497070027E8D5 /* CardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF222AE163497070027E8D5 /* CardInfoViewController.m */; };
+		FEF222B1163497070027E8D5 /* CardInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF222AF163497070027E8D5 /* CardInfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,9 @@
 		FED560001629DF7F00690CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 		FED5600B1629DFCF00690CD5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		FED5600D1629DFD200690CD5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		FEF222AD163497070027E8D5 /* CardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardInfoViewController.h; sourceTree = "<group>"; };
+		FEF222AE163497070027E8D5 /* CardInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardInfoViewController.m; sourceTree = "<group>"; };
+		FEF222AF163497070027E8D5 /* CardInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,9 @@
 				FC0E43AB162A068900EC0900 /* DialViewController.h */,
 				FC0E43AC162A068900EC0900 /* DialViewController.m */,
 				FC0E43AD162A068900EC0900 /* DialViewController.xib */,
+				FEF222AD163497070027E8D5 /* CardInfoViewController.h */,
+				FEF222AE163497070027E8D5 /* CardInfoViewController.m */,
+				FEF222AF163497070027E8D5 /* CardInfoViewController.xib */,
 				FED55FDD1629DF7F00690CD5 /* Supporting Files */,
 			);
 			path = CallingCardAssistant;
@@ -205,6 +213,7 @@
 				FED55FFE1629DF7F00690CD5 /* FirstViewController.xib in Resources */,
 				FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */,
 				FCA9F36F162A075300D1265F /* DialViewController.xib in Resources */,
+				FEF222B1163497070027E8D5 /* CardInfoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 				FED55FF01629DF7F00690CD5 /* FirstViewController.m in Sources */,
 				FED55FF71629DF7F00690CD5 /* SecondViewController.m in Sources */,
 				FCA9F36D162A074F00D1265F /* DialViewController.m in Sources */,
+				FEF222B0163497070027E8D5 /* CardInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
