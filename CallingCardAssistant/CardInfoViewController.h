@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardInfoViewController : UIViewController
+@interface CardInfoViewController : UIViewController{
+    IBOutlet UIImageView *ImageView;
+    IBOutlet UITextField *phoneTextField;
+    IBOutlet UITextField *pinTextField;
+}
+- (IBAction)saveButton:(id)sender;
+
+//- (IBAction)saveButton:(id)sender;
+
+
+//@property (strong, nonatomic) IBOutlet UITextField *phoneTextField;
+//-(IBAction)onTextEditingEnd:(id)sender;
+////- (IBAction)backgroundTouched:(id)sender;
+
+//@property (strong, nonatomic) IBOutlet UITextField *pinTextField;
+//-(IBAction)textFieldReturn:(id)pinTextField;
 
 @end

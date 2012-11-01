@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050EA7FB16423B3E009ED0EF /* phone-card.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 050EA7FA16423B3E009ED0EF /* phone-card.jpeg */; };
 		FCA9F36D162A074F00D1265F /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E43AC162A068900EC0900 /* DialViewController.m */; };
 		FCA9F36F162A075300D1265F /* DialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0E43AD162A068900EC0900 /* DialViewController.xib */; };
 		FED55FD71629DF7F00690CD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FD61629DF7F00690CD5 /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050EA7FA16423B3E009ED0EF /* phone-card.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "phone-card.jpeg"; path = "../../uwmobile-CallingCardAssistant-11f052f/CallingCardAssistant/phone-card.jpeg"; sourceTree = "<group>"; };
 		FC0E43AB162A068900EC0900 /* DialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
 		FC0E43AC162A068900EC0900 /* DialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
 		FC0E43AD162A068900EC0900 /* DialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialViewController.xib; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		FED55FDD1629DF7F00690CD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				050EA7FA16423B3E009ED0EF /* phone-card.jpeg */,
 				FED55FDE1629DF7F00690CD5 /* CallingCardAssistant-Info.plist */,
 				FED55FDF1629DF7F00690CD5 /* InfoPlist.strings */,
 				FED55FE21629DF7F00690CD5 /* main.m */,
@@ -214,6 +217,7 @@
 				FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */,
 				FCA9F36F162A075300D1265F /* DialViewController.xib in Resources */,
 				FEF222B1163497070027E8D5 /* CardInfoViewController.xib in Resources */,
+				050EA7FB16423B3E009ED0EF /* phone-card.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
