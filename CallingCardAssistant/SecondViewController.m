@@ -127,10 +127,8 @@
 - (NSString*)append_1_to_front:(NSString*)string
 {
     return [@"1" stringByAppendingString:string];
-}- (NSString*)append_1_to_front:(NSString*)string
-{
-    return [@"1" stringByAppendingString:string];
 }
+
 - (NSString*)append_01186_to_front:(NSString*)string
 {
     return [@"01186" stringByAppendingString:string];

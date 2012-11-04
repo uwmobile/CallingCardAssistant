@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050EA7FB16423B3E009ED0EF /* phone-card.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 050EA7FA16423B3E009ED0EF /* phone-card.jpeg */; };
+		FC6D0116164734D400C32F96 /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92A61A1647337B0088C248 /* DialViewController.m */; };
+		FC6D0117164734DA00C32F96 /* DialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC92A61B1647337B0088C248 /* DialViewController.xib */; };
 		FED55FD71629DF7F00690CD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FD61629DF7F00690CD5 /* UIKit.framework */; };
 		FED55FD91629DF7F00690CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FD81629DF7F00690CD5 /* Foundation.framework */; };
 		FED55FDB1629DF7F00690CD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED55FDA1629DF7F00690CD5 /* CoreGraphics.framework */; };
@@ -32,8 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		050EA7FA16423B3E009ED0EF /* phone-card.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "phone-card.jpeg"; path = "../../uwmobile-CallingCardAssistant-11f052f/CallingCardAssistant/phone-card.jpeg"; sourceTree = "<group>"; };
-		FC92A6191647337B0088C248 /* DialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		FC6D0115164734C400C32F96 /* DialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
 		FC92A61A1647337B0088C248 /* DialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
 		FC92A61B1647337B0088C248 /* DialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialViewController.xib; sourceTree = "<group>"; };
 		FED55FD21629DF7F00690CD5 /* CallingCardAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingCardAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +129,7 @@
 				FEF222AD163497070027E8D5 /* CardInfoViewController.h */,
 				FEF222AE163497070027E8D5 /* CardInfoViewController.m */,
 				FEF222AF163497070027E8D5 /* CardInfoViewController.xib */,
-				FC92A6191647337B0088C248 /* DialViewController.h */,
+				FC6D0115164734C400C32F96 /* DialViewController.h */,
 				FC92A61A1647337B0088C248 /* DialViewController.m */,
 				FC92A61B1647337B0088C248 /* DialViewController.xib */,
 				FED55FDD1629DF7F00690CD5 /* Supporting Files */,
@@ -140,7 +140,6 @@
 		FED55FDD1629DF7F00690CD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				050EA7FA16423B3E009ED0EF /* phone-card.jpeg */,
 				FED55FDE1629DF7F00690CD5 /* CallingCardAssistant-Info.plist */,
 				FED55FDF1629DF7F00690CD5 /* InfoPlist.strings */,
 				FED55FE21629DF7F00690CD5 /* main.m */,
@@ -214,7 +213,7 @@
 				FED55FFE1629DF7F00690CD5 /* FirstViewController.xib in Resources */,
 				FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */,
 				FEF222B1163497070027E8D5 /* CardInfoViewController.xib in Resources */,
-				050EA7FB16423B3E009ED0EF /* phone-card.jpeg in Resources */,
+				FC6D0117164734DA00C32F96 /* DialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +229,7 @@
 				FED55FF01629DF7F00690CD5 /* FirstViewController.m in Sources */,
 				FED55FF71629DF7F00690CD5 /* SecondViewController.m in Sources */,
 				FEF222B0163497070027E8D5 /* CardInfoViewController.m in Sources */,
+				FC6D0116164734D400C32F96 /* DialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
