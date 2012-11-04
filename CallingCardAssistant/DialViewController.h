@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface DialViewController : UIViewController
+
+
 @property (weak, nonatomic) IBOutlet UILabel *display;
+
 
 @end

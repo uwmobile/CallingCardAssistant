@@ -19,7 +19,42 @@
 {
     NSString *digit =[sender currentTitle];
     self.display.text=[self.display.text stringByAppendingFormat:digit];
+    //TODO if length == 0, what to do?
+    
+
 
 }
+
+- (IBAction)delete:(UIButton *)sender {
+    NSString *string = self.display.text;
+    NSInteger len = [string length];
+
+    string  = [string  substringToIndex:len-1];
+    
+               
+    if ([string isEqualToString:@""])
+    {
+        string =@"" ;
+        
+    }else{
+        string =[string substringToIndex:len-1];
+    }
+    self.display.text=string;
+}
+
+
+
+- (IBAction)call:(UIButton *)sender {
+
+    NSString *string =self.display.text;
+  
+    NSURL *call= [NSURL URLWithString:[@"tel:" stringByAppendingString:string ]];
+                     
+        [[UIApplication sharedApplication] openURL:call];
+   
+}
+
+
+
 
 @end
