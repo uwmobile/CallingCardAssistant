@@ -28,10 +28,13 @@
 - (IBAction)delete:(UIButton *)sender {
     NSString *string = self.display.text;
     NSInteger len = [string length];
+
+    string  = [string  substringToIndex:len-1];
+    
                
     if ([string isEqualToString:@""])
     {
-        string =self.display.text;
+        string =@"" ;
         
     }else{
         string =[string substringToIndex:len-1];
