@@ -30,29 +30,17 @@ bool  keyboardup = false;
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
     
-    
-    ImageView.image = [UIImage imageNamed: @"phone-card.jpeg"];
+    _imageView.image = [UIImage imageNamed: @"phone-card.jpeg"];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *cardPhoneNumber = [defaults objectForKey:@"cardPhoneNumber"];
     NSString *cardPINNumber = [defaults objectForKey:@"cardPINNumber"];
-    phoneTextField.text = cardPhoneNumber;
-    pinTextField.text = cardPINNumber;
-      NSLog(@"activated viewdidload");
-    [super viewDidLoad];
-    
+    _phoneTextField.text = cardPhoneNumber;
+    _pinTextField.text = cardPINNumber;
+    NSLog(@"activated viewdidload");
 }
-
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    NSLog(@"Application Did Enter Background");
-}
-
-//- (void)applicationWillResignActive:(UIApplication *)application{
-//     keyboardup = false;
-//     NSLog(@"activated");
-//}
 
 - (void)didReceiveMemoryWarning
 {
@@ -72,14 +60,14 @@ bool  keyboardup = false;
 }
 
 - (IBAction)saveButton:(id)sender {
-    NSString *cardPhoneNumber = [phoneTextField text];
-    NSString *cardPINNumber  = [pinTextField text];
+    NSString *cardPhoneNumber = [_phoneTextField text];
+    NSString *cardPINNumber  = [_pinTextField text];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:cardPhoneNumber forKey:@"cardPhoneNumber"];
     [defaults setObject:cardPINNumber forKey:@"cardPINNumber"];
     [defaults synchronize];
-  
+    //TODO show a message
 }
 
 
@@ -98,6 +86,7 @@ bool  keyboardup = false;
     }
     
 }
+
 -(IBAction)onTextEditingEnd:(id)sender
 {
     
@@ -116,4 +105,40 @@ bool  keyboardup = false;
    
 }
 
+#pragma mark - UITableView Datasource
+- (int)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 2; //One fo phone card image, one for input fields
+}
+
+- (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return 1;
+    } else {
+        return 2;
+    }
+}
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.section == 0) {
+        //return the phone card cell
+    } else {
+        if (indexPath.row == 0) {
+            //return number cell
+        } else {
+            //return the pin cell
+        }
+    }
+}
+
+- (NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return @"Card Info";
+    } else {
+        return nil;
+    }
+}
 @end
+

@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardInfoViewController : UIViewController{
-    IBOutlet UIImageView *ImageView;
-    IBOutlet UITextField *phoneTextField;
-    IBOutlet UITextField *pinTextField;
+@interface CardInfoViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    IBOutlet UIImageView *_imageView;
+    IBOutlet UITextField *_phoneTextField;
+    IBOutlet UITextField *_pinTextField;
 }
 - (IBAction)saveButton:(id)sender;
 
