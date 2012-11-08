@@ -33,9 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC6D0115164734C400C32F96 /* DialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
-		FC92A61A1647337B0088C248 /* DialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
-		FC92A61B1647337B0088C248 /* DialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialViewController.xib; sourceTree = "<group>"; };
+		FC0E43AB162A068900EC0900 /* DialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		FC0E43AC162A068900EC0900 /* DialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
+		FC0E43AD162A068900EC0900 /* DialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialViewController.xib; sourceTree = "<group>"; };
 		FED55FD21629DF7F00690CD5 /* CallingCardAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingCardAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED55FD61629DF7F00690CD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FED55FD81629DF7F00690CD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -213,7 +213,6 @@
 				FED55FFE1629DF7F00690CD5 /* FirstViewController.xib in Resources */,
 				FED560011629DF7F00690CD5 /* SecondViewController.xib in Resources */,
 				FEF222B1163497070027E8D5 /* CardInfoViewController.xib in Resources */,
-				FC6D0117164734DA00C32F96 /* DialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
